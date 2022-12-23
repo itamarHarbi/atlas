@@ -1,0 +1,53 @@
+
+
+header{
+    background: silver;
+}
+
+nav ul li{
+    margin-right: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#search{
+height: 3em;
+}
+
+
+#id_searchInput{
+    width: 80%;
+    border: none;
+}
+
+#id_searchBtn{
+    width: 20%;
+    border: none;
+}
+
+#id_suggest{
+    position: relative;
+}
+
+
+
+.suggest_class{
+background-color: white;
+padding: 5px;
+}
+
+#country_data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+#map_wrap{
+    min-height: 500px;
+}
+
+@media (max-width:768px) {
+    
+}
